@@ -1,0 +1,41 @@
+/* navegation section */
+.navegation{
+    height: 100vh;
+}
+.navegation.open {
+    width: 250px;
+}
+.ul {
+    display: flex;
+    flex-direction: column;
+	gap: 10px;
+	width: 100%;
+}
+
+.text {
+    display: flex;
+}
+
+/* coffe section  */
+
+.coffe-conteiner {
+    align-items: center;
+}
+
+.container {
+    top: 50px;
+    margin: 0 150px;
+}
+
+.cup {
+    width: 280px;
+}
+
+.plate {
+    width: 400px;
+}
+
+.handle {
+    width: 160px;
+    right: -70px;
+}
