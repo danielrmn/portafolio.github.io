@@ -39,3 +39,22 @@
     width: 160px;
     right: -70px;
 }
+
+/* main area */
+
+.main-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.skills-section {
+    display: flex;
+}
+.blog-section{
+    display: flex;
+}
+
+.blog-section .img-conteiner{
+    width: 80%;
+}

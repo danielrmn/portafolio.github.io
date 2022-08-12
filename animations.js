@@ -77,10 +77,9 @@ window.addEventListener('wheel', () => {
     let skills = document.getElementById('skills');
     const skillName = document.querySelectorAll('.skill-name');
     const dot = document.querySelectorAll('.dot');
-    const circle = document.querySelectorAll('.circle');
+    const circle = document.querySelectorAll('svg .circle');
     let position = skills.getBoundingClientRect().top;
-    console.log(position);
-    let screenSize = window.innerHeight / 3;
+    let screenSize = window.innerHeight / 1.5;
 
     for(i=0; i < 5; i++){
         let topskillName = skillName[i];
