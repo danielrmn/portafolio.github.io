@@ -21,7 +21,9 @@
 .coffe-conteiner {
     align-items: center;
 }
-
+.vapour {
+    display: flex;
+}
 .container {
     top: 50px;
     margin: 0 150px;

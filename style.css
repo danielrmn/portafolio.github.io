@@ -198,16 +198,17 @@ header h2{
     line-height: 5rem;
 }
 
-@media (max-width: 800px){
+/* @media (max-width: 800px){
 	.title-container{
 		display: none;
 	}
-}
+} */
 
 /* COFFE AREA */
 .coffe-conteiner{
 	width: 100%;
 	display: flex;
+	overflow-y: none;
     overflow-x: hidden;
 	justify-content: flex-end;
 	align-items: center;
@@ -301,7 +302,7 @@ header h2{
 }
 .vapour{
 	position: relative;
-	display: flex;
+	display: none;
 	/* z-index: 1; */
 	padding: 0 20px;
 }
