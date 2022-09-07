@@ -184,7 +184,7 @@ nav {
 
 /* name coffe */
 .title-container{
-    display: flex;
+    display: none;
     justify-content: flex-end;
 	align-items: center;
 	grid-column: 2;
@@ -382,9 +382,6 @@ header h2{
 	background-image: url('accets/toothbrush\ and\ floss.png');
 }
 
-.blog-section .img-conteiner {
-	background-image: url('accets/blog.jpg');
-}
 
 .text-content-container {
 	display: flex;
@@ -420,9 +417,18 @@ header h2{
 .blog-section {
 	background-color: var(--main-color);
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 40px;
+}
+
+.blog-img-conteiner {
+	width: 100%;
+	height: 500px;
+	background: rgb(50,50,50);
+	background-blend-mode: soft-light;
+	background-image: url('accets/blog.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
 
 /* skills section */

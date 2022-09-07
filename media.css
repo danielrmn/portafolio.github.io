@@ -42,6 +42,9 @@
     right: -70px;
 }
 
+.title-container{
+    display: flex;
+}
 /* main area */
 
 .main-section {
@@ -59,4 +62,9 @@
 
 .blog-section .img-conteiner{
     width: 80%;
+}
+
+/* blog section */
+.blog-img-conteiner{
+	width: 400px;
 }
